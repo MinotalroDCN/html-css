@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 0px
+        }
+
+        a {
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        nav {
+            display: inline;
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            border-radius: 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: rgb(161, 161, 161);
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.507);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est omnis et sit eum, voluptas distinctio doloribus ipsum quisquam expedita aut dolorum animi enim rerum ad cupiditate libero optio? Dicta.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Miguel u Bom</p>
+    </footer>
+</body>
+</html>

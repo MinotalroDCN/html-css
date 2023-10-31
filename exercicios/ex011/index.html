@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamnho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="assets/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="assets/foto-m.png" type="image/png">
+        <img src="assets/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Audios</h1>
+    <audio preload="metadata" controls>
+        <source src="midias/Fever.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegui reproduzir o áudio. <a href="midias/Fever.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+    <iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/playlist/1NucQxzyRvZLJSFINGcK5f?utm_source=generator&theme=0" 
+    width="50%" height="352" frameBorder="0" 
+    allowfullscreen="" 
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</body>
+</html>
