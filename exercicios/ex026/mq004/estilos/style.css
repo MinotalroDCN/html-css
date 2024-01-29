@@ -40,6 +40,18 @@ img {
     margin: auto;
 }
 
-#tablet, #print, #pc, #tv {
+#phone {
+    display: block;
+}
+#tablet {
+    display: none;
+}
+#print {
+    display: none;
+}
+#pc {
+    display: none;
+}
+#tv {
     display: none;
 }
